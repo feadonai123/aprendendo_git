@@ -1,0 +1,108 @@
+body{
+    height: 100%;
+    background-color: #E5E5E5;
+    margin: 0;
+    font-family: 'Open Sans', sans-serif;
+    font-style: normal;
+}
+a{
+    text-decoration: none;
+}
+.block{
+    display:block;
+}
+.flex{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+.link_verInstituicao a{
+    display: block;
+    color: white;
+    line-height: 60px;
+    font-size: 16px;
+    padding-left: 15px;
+    padding-right: 15px;
+}
+.link_verInstituicao:hover{
+    background-color: #FFF100;
+}
+.link_verInstituicao:hover a{
+    color: #242020;
+}
+
+
+
+.link_cesta{
+    background-color: #FEFEFE;
+    border-radius: 35px;
+}
+.link_cesta a{
+    color: black;
+    line-height: 42px;
+    font-size: 16px;
+    padding-left: 16px;
+}
+.link_cesta img{
+    padding-left: 5px;
+    padding-right: 16px;
+}
+
+.link_cesta:hover{
+    background-color: black;
+}
+.link_cesta:hover a{
+    color: white;
+}
+.link_cesta:hover img{
+    filter: invert(100%);
+}
+
+
+.dropdown ul{
+    display: none;
+    position: absolute;
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    background-color: #242020;
+}
+.dropdown a{
+    display: block;
+    overflow: hidden;
+    color: white;
+    line-height: 32px;
+    padding-left: 16px;
+    padding-right: 16px;
+}
+.dropdown img{
+    padding-left: 5px;
+}
+.dropdown label{
+    color: white;
+    line-height: 60px;
+    font-size: 16px;
+    padding-left: 15px;
+    padding-right: 15px;
+}
+
+.dropdown:hover ul{
+    display: block;
+}
+
+.dropdown:hover{
+    background-color: #FFF100;
+}
+.dropdown:hover label{
+    color: black;
+}
+.dropdown:hover img{
+    filter: invert(100%);
+}
+
+.dropdown a:hover{
+    color: black;
+}
+.dropdown a:hover{
+    background-color: #FFF100;
+}
